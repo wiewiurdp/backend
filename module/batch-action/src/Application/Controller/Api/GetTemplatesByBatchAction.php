@@ -9,7 +9,8 @@ declare(strict_types=1);
 
 namespace Ergonode\BatchAction\Application\Controller\Api;
 
-use Ergonode\Api\Application\Exception\ViolationsHttpException;
+use
+    Ergonode\Api\Application\Exception\ViolationsHttpException;
 use Ergonode\Api\Application\Response\SuccessResponse;
 use Ergonode\BatchAction\Application\Form\Model\BatchActionFilterFormModel;
 use Ergonode\BatchAction\Domain\ValueObject\BatchActionFilter;
